@@ -1,0 +1,35 @@
+Importan Link for Mbed
+Pin out
+https://os.mbed.com/platforms/ST-Nucleo-L073RZ/
+http://www.st.com/content/ccc/resource/technical/document/user_manual/98/2e/fa/4b/e0/82/43/b7/DM00105823.pdf/files/DM00105823.pdf/jcr:content/translations/en.DM00105823.pdf
+
+
+cubemx 
+http://www.st.com/content/ccc/resource/sales_and_marketing/presentation/product_presentation/8a/01/eb/38/b8/6c/4e/16/gt_stm32f0-l0.pdf/files/gt_stm32f0-l0.pdf/jcr:content/translations/en.gt_stm32f0-l0.pdf
+
+osOnline IDE
+https://os.mbed.com/compiler/#nav:/mbed-os-example-blinky/mbed-os.lib;
+
+
+tutorial
+https://os.mbed.com/docs/v5.8/tutorials/windows-serial-driver.html
+
+TCP
+https://www.hackster.io/naresh-krish/getting-started-with-hologram-sim-and-rak-itracker-module-2537b9
+
+
+HTTPS
+https://developers.thethings.io/reference#testinput-1
+https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
+thigh.io
+https://developers.thethings.io/docs/getting-started
+
+example
+https://os.mbed.com/teams/Avnet-Silica/code/Nucleo_NbIotBG96_A2_cloud_IBM/
+
+
+bg96 +mbed OS Target
+https://github.com/ARMmbed/mbed-os
+
+UART
+https://www.youtube.com/watch?v=IdKx4oWNJfw

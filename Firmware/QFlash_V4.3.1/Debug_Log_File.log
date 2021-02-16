@@ -1,0 +1,488 @@
+2017-5-9_15:51:39 <--> Download firehose file ......
+2017-5-9_15:51:39 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:"E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory\prog_emmc_firehose_8909_ddr.mbn"
+2017-5-9_15:51:40 <--> DL-Firehose Binary build date: May 13 2015 @ 14:41:37
+2017-5-9_15:51:40 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory\prog_emmc_firehose_8909_ddr.m
+2017-5-9_15:51:40 <--> DL-Firehose bn 'Current working dir: D:\QFlash_V4.1\Release
+2017-5-9_15:51:40 <--> DL-Firehose Sahara mappings:
+2017-5-9_15:51:40 <--> DL-Firehose 2: amss.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 6: apps.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 8: dsp1.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 10: dbl.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 11: osbl.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 12: dsp2.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 16: efs1.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 17: efs2.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 20: efs3.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 21: sbl1.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 22: sbl2.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 23: rpm.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 25: tz.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 28: dsp3.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 29: acdb.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 30: wdt.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 31: mba.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 13: E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory\prog_emmc_firehose_8909_ddr.mbn
+2017-5-9_15:51:40 <--> DL-Firehose 15:51:39: Requested ID 13, file: "E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQA
+2017-5-9_15:51:40 <--> DL-Firehose R01A10V03H8G_factory\prog_emmc_firehose_8909_ddr.mbn"
+2017-5-9_15:51:40 <--> DL-Firehose 15:51:40: 271940 bytes transferred in 0.187000 seconds (1.3869MBps)
+2017-5-9_15:51:40 <--> DL-Firehose 15:51:40: File transferred successfully
+2017-5-9_15:51:40 <--> DL-Firehose NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This i
+2017-5-9_15:51:40 <--> DL-Firehose s by design, ** All is well ** SUCCESS!!
+2017-5-9_15:51:40 <--> DL-Firehose 15:51:40: Sahara protocol completed
+2017-5-9_15:51:40 <--> DL-Firehose, wait for 3 seconds ......
+2017-5-9_15:51:41 <--> DL-Firehose, wait for 2 seconds ......
+2017-5-9_15:51:43 <--> DL-Firehose, wait for 1 seconds ......
+2017-5-9_15:51:44 <--> Download rawprogram file ......
+2017-5-9_15:51:44 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --sendxml=rawprogram_unsparse.xml --search_path="E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2017-5-9_15:51:46 <--> DL-Rawprogram( 0.02% ),  percent files transferred   0.02% 
+2017-5-9_15:51:46 <--> DL-Rawprogram( 0.06% ),  percent files transferred   0.06% 
+2017-5-9_15:51:46 <--> DL-Rawprogram( 0.09% ),  percent files transferred   0.09% 
+2017-5-9_15:51:47 <--> DL-Rawprogram( 0.16% ),  percent files transferred   0.16% 
+2017-5-9_15:51:47 <--> DL-Rawprogram( 0.24% ),  percent files transferred   0.24% 
+2017-5-9_15:51:47 <--> DL-Rawprogram( 0.26% ),  percent files transferred   0.26% 
+2017-5-9_15:51:47 <--> DL-Rawprogram( 0.28% ),  percent files transferred   0.28% 
+2017-5-9_15:51:51 <--> DL-Rawprogram( 0.36% ),  percent files transferred   0.36% 
+2017-5-9_15:51:51 <--> DL-Rawprogram( 0.44% ),  percent files transferred   0.44% 
+2017-5-9_15:51:51 <--> DL-Rawprogram( 0.67% ),  percent files transferred   0.67% 
+2017-5-9_15:51:51 <--> DL-Rawprogram( 0.91% ),  percent files transferred   0.91% 
+2017-5-9_15:51:51 <--> DL-Rawprogram( 6.67% ),  percent files transferred   6.67% 
+2017-5-9_15:51:59 <--> DL-Rawprogram( 8.26% ),  percent files transferred   8.26% 
+2017-5-9_15:51:59 <--> DL-Rawprogram( 10.27% ),  percent files transferred  10.27% 
+2017-5-9_15:51:59 <--> DL-Rawprogram( 16.03% ),  percent files transferred  16.03% 
+2017-5-9_15:51:59 <--> DL-Rawprogram( 21.80% ),  percent files transferred  21.80% 
+2017-5-9_15:51:59 <--> DL-Rawprogram( 27.56% ),  percent files transferred  27.56% 
+2017-5-9_15:51:59 <--> DL-Rawprogram( 30.20% ),  percent files transferred  30.20% 
+2017-5-9_15:52:7 <--> DL-Rawprogram( 30.21% ),  percent files transferred  30.21% 
+2017-5-9_15:52:7 <--> DL-Rawprogram( 35.81% ),  percent files transferred  35.81% 
+2017-5-9_15:52:7 <--> DL-Rawprogram( 41.58% ),  percent files transferred  41.58% 
+2017-5-9_15:52:7 <--> DL-Rawprogram( 47.18% ),  percent files transferred  47.18% 
+2017-5-9_15:52:7 <--> DL-Rawprogram( 49.79% ),  percent files transferred  49.79% 
+2017-5-9_15:52:15 <--> DL-Rawprogram( 55.56% ),  percent files transferred  55.56% 
+2017-5-9_15:52:15 <--> DL-Rawprogram( 61.32% ),  percent files transferred  61.32% 
+2017-5-9_15:52:15 <--> DL-Rawprogram( 66.92% ),  percent files transferred  66.92% 
+2017-5-9_15:52:15 <--> DL-Rawprogram( 69.38% ),  percent files transferred  69.38% 
+2017-5-9_15:52:17 <--> DL-Rawprogram( 72.30% ),  percent files transferred  72.30% 
+2017-5-9_15:52:23 <--> DL-Rawprogram( 77.91% ),  percent files transferred  77.91% 
+2017-5-9_15:52:23 <--> DL-Rawprogram( 83.91% ),  percent files transferred  83.91% 
+2017-5-9_15:52:23 <--> DL-Rawprogram( 84.63% ),  percent files transferred  84.63% 
+2017-5-9_15:52:25 <--> DL-Rawprogram( 85.58% ),  percent files transferred  85.58% 
+2017-5-9_15:52:25 <--> DL-Rawprogram( 87.68% ),  percent files transferred  87.68% 
+2017-5-9_15:52:26 <--> DL-Rawprogram( 88.05% ),  percent files transferred  88.05% 
+2017-5-9_15:52:26 <--> DL-Rawprogram( 88.06% ),  percent files transferred  88.06% 
+2017-5-9_15:52:28 <--> DL-Rawprogram( 88.07% ),  percent files transferred  88.07% 
+2017-5-9_15:52:34 <--> DL-Rawprogram( 88.08% ),  percent files transferred  88.08% 
+2017-5-9_15:52:34 <--> DL-Rawprogram( 93.68% ),  percent files transferred  93.68% 
+2017-5-9_15:52:34 <--> DL-Rawprogram( 99.44% ),  percent files transferred  99.44% 
+2017-5-9_15:52:34 <--> DL-Rawprogram( 100.00% ),  percent files transferred 100.00% 
+2017-5-9_15:52:34 <--> DL-Rawprogram, wait for 1 seconds ......
+2017-5-9_15:52:35 <--> DL-Rawprogram, wait for 0 seconds ......
+2017-5-9_15:52:36 <--> Download patch file ......
+2017-5-9_15:52:36 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --sendxml=patch0.xml --search_path="E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2017-5-9_15:52:38 <--> DL-Patch Binary build date: Sep 28 2015 @ 17:28:46
+2017-5-9_15:52:38 <--> DL-Patch Build version: 15.09.28.17.28.46
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2017-5-9_15:52:38 <--> DL-Patch ************************************************
+2017-5-9_15:52:38 <--> DL-Patch D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --send
+2017-5-9_15:52:38 <--> DL-Patch xml=patch0.xml --search_path=E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC 
+2017-5-9_15:52:38 <--> DL-Patch ************************************************
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Curr
+2017-5-9_15:52:38 <--> DL-Patch ent working dir (cwd): D:\QFlash_V4.1\Release\
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Showing network mappings to allow debugging
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: 
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Trying to store 'patch0.xml' in string table
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Looking for file 'patch0.xml'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO
+2017-5-9_15:52:38 <--> DL-Patch : User wants to talk to port '\\.\COM60'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Took       0.00000000 seconds to open port
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: If  you don't want this, use --dontsorttags
+2017-5-9_15:52:38 <--> DL-Patch 15:52:36: INFO: Sending <configure>
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'logbuf@0x08057C78 fh@0x08054AE0'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+2017-5-9_15:52:38 <--> DL-Patch 15:52:3
+2017-5-9_15:52:38 <--> DL-Patch 7: INFO: TARGET SAID: 'Patched sector 9 with 00E8FFDE'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 15269862 with 00E8FFDE'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 1 with 00E8FFDE'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 15269887 with 00
+2017-5-9_15:52:38 <--> DL-Patch E8FFDE'
+2017-5-9_15:52:38 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 1 with 00E8FFFF'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFFF'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFDF'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'crc st
+2017-5-9_15:52:39 <--> DL-Patch art sector 2, over bytes 4096'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 1 with 11F30BC9'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'crc start sector 15269855, over bytes 4096'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:37: INFO: TARGET SAID: 'Patched sector 15269887 with 11F30BC9'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38
+2017-5-9_15:52:39 <--> DL-Patch : INFO: TARGET SAID: 'Patched sector 1 with 00000000'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: TARGET SAID: 'crc start sector 1, over bytes 92'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: TARGET SAID: 'Patched sector 1 with 0A5F1ED6'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: TARGET SAID: 'Patched sector 15269887 with 0000000
+2017-5-9_15:52:39 <--> DL-Patch 0'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: TARGET SAID: 'crc start sector 15269887, over bytes 92'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: TARGET SAID: 'Patched sector 15269887 with CDF7E002'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: ==============================================================
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: Files use
+2017-5-9_15:52:39 <--> DL-Patch d and their paths
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:   1 'D:\QFlash_V4.1\Release\port_trace.txt'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:   2 'E:\work\Qualcom\MSM8909\SC10CEQAR01A10V03H8G_factory\SC10CEQAR01A10V03H8G_factory\patch0.xml'
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:      _             (done)
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:
+2017-5-9_15:52:39 <--> DL-Patch      | |                 
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:   __| | ___  _ __   ___ 
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:  / _` |/ _ \| '_ \ / _ \
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: | (_| | (_) | | | |  __/
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO:  \__,_|\___/|_| |_|\___|
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO: {All Finished Successfully}
+2017-5-9_15:52:39 <--> DL-Patch 15:52:38: INFO
+2017-5-9_15:52:39 <--> DL-Patch, wait for 1 seconds ......
+2017-5-9_15:52:40 <--> DL-Patch, wait for 0 seconds ......
+2017-5-9_15:52:40 <--> Download reset ......
+2017-5-9_15:52:40 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC --setactivepartition=0
+2017-5-9_15:52:41 <--> DL-Reset Binary build date: Sep 28 2015 @ 17:28:46
+2017-5-9_15:52:41 <--> DL-Reset Build version: 15.09.28.17.28.46
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2017-5-9_15:52:41 <--> DL-Reset ************************************************
+2017-5-9_15:52:41 <--> DL-Reset D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --nopr
+2017-5-9_15:52:41 <--> DL-Reset ompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC --setactivepartition=0 
+2017-5-9_15:52:41 <--> DL-Reset ************************************************
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: Current working dir (cwd): D:\QFlash_V4.1\Release\
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: Showing network mappings to al
+2017-5-9_15:52:41 <--> DL-Reset low debugging
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: User wants to talk to port '\\.\COM60'
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: Took       0.00000000 seconds to open port
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: If  you don't w
+2017-5-9_15:52:41 <--> DL-Reset ant this, use --dontsorttags
+2017-5-9_15:52:41 <--> DL-Reset 15:52:40: INFO: Sending <configure>
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: TARGET SAID: 'logbuf@0x08057C78 fh@0x08054AE0'
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesS
+2017-5-9_15:52:41 <--> DL-Reset upported = 1048576
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: Sending <setbootablestoragedrive>
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: TARGET SAID: 'Set bootable drive to 0.'
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: ==============================================================
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: Files used and their paths
+2017-5-9_15:52:41 <--> DL-Reset 15
+2017-5-9_15:52:41 <--> DL-Reset :52:41: INFO:   1 'D:\QFlash_V4.1\Release\port_trace.txt'
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO:      _             (done)
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO:     | |                 
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO:   __| | ___  _ __   ___ 
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO:  / _` |/ _ \| '_ \ / _ \
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: | (_| | (_
+2017-5-9_15:52:41 <--> DL-Reset ) | | | |  __/
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO:  \__,_|\___/|_| |_|\___|
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: {All Finished Successfully}
+2017-5-9_15:52:41 <--> DL-Reset 15:52:41: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.203 seconds (0.00 Bps)
+2017-5-9_15:52:41 <--> DL-Reset Writing log to 'D:\QF
+2017-5-9_16:6:16 <--> Download firehose file ......
+2017-5-9_16:6:16 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:"E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn"
+2017-5-9_16:6:18 <--> DL-Firehose Binary build date: May 13 2015 @ 14:41:37
+2017-5-9_16:6:18 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn '
+2017-5-9_16:6:18 <--> DL-Firehose Current working dir: D:\QFlash_V4.1\Release
+2017-5-9_16:6:18 <--> DL-Firehose Sahara mappings:
+2017-5-9_16:6:18 <--> DL-Firehose 2: amss.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 6: apps.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 8: dsp1.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 10: dbl.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 11: osbl.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 12: dsp2.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 16: efs1.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 17: efs2.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 20: efs3.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 21: sbl1.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 22: sbl2.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 23: rpm.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 25: tz.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 28: dsp3.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 29: 
+2017-5-9_16:6:18 <--> DL-Firehose acdb.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 30: wdt.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 31: mba.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 13: E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn
+2017-5-9_16:6:18 <--> DL-Firehose 16:06:17: Requested ID 13, file: "E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8
+2017-5-9_16:6:18 <--> DL-Firehose G_update\prog_emmc_firehose_8909_ddr.mbn"
+2017-5-9_16:6:18 <--> DL-Firehose 16:06:18: 271940 bytes transferred in 0.141000 seconds (1.8393MBps)
+2017-5-9_16:6:18 <--> DL-Firehose 16:06:18: File transferred successfully
+2017-5-9_16:6:18 <--> DL-Firehose NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This is by design,
+2017-5-9_16:6:18 <--> DL-Firehose  ** All is well ** SUCCESS!!
+2017-5-9_16:6:18 <--> DL-Firehose 16:06:18: Sahara protocol completed
+2017-5-9_16:6:18 <--> DL-Firehose, wait for 3 seconds ......
+2017-5-9_16:6:19 <--> DL-Firehose, wait for 2 seconds ......
+2017-5-9_16:6:21 <--> DL-Firehose, wait for 1 seconds ......
+2017-5-9_16:6:22 <--> Download rawprogram file ......
+2017-5-9_16:6:22 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --sendxml=rawprogram_unsparse.xml --search_path="E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2017-5-9_16:6:23 <--> DL-Rawprogram( 0.04% ),  percent files transferred   0.04% 
+2017-5-9_16:6:23 <--> DL-Rawprogram( 0.07% ),  percent files transferred   0.07% 
+2017-5-9_16:6:24 <--> DL-Rawprogram( 0.15% ),  percent files transferred   0.15% 
+2017-5-9_16:6:24 <--> DL-Rawprogram( 0.22% ),  percent files transferred   0.22% 
+2017-5-9_16:6:24 <--> DL-Rawprogram( 0.24% ),  percent files transferred   0.24% 
+2017-5-9_16:6:24 <--> DL-Rawprogram( 0.27% ),  percent files transferred   0.27% 
+2017-5-9_16:6:24 <--> DL-Rawprogram( 0.34% ),  percent files transferred   0.34% 
+2017-5-9_16:6:24 <--> DL-Rawprogram( 0.42% ),  percent files transferred   0.42% 
+2017-5-9_16:6:35 <--> DL-Rawprogram( 6.05% ),  percent files transferred   6.05% 
+2017-5-9_16:6:35 <--> DL-Rawprogram( 7.81% ),  percent files transferred   7.81% 
+2017-5-9_16:6:35 <--> DL-Rawprogram( 9.83% ),  percent files transferred   9.83% 
+2017-5-9_16:6:35 <--> DL-Rawprogram( 15.46% ),  percent files transferred  15.46% 
+2017-5-9_16:6:35 <--> DL-Rawprogram( 21.09% ),  percent files transferred  21.09% 
+2017-5-9_16:6:44 <--> DL-Rawprogram( 29.85% ),  percent files transferred  29.85% 
+2017-5-9_16:6:44 <--> DL-Rawprogram( 35.48% ),  percent files transferred  35.48% 
+2017-5-9_16:6:44 <--> DL-Rawprogram( 40.96% ),  percent files transferred  40.96% 
+2017-5-9_16:6:44 <--> DL-Rawprogram( 46.59% ),  percent files transferred  46.59% 
+2017-5-9_16:6:44 <--> DL-Rawprogram( 49.52% ),  percent files transferred  49.52% 
+2017-5-9_16:6:52 <--> DL-Rawprogram( 49.53% ),  percent files transferred  49.53% 
+2017-5-9_16:6:52 <--> DL-Rawprogram( 54.84% ),  percent files transferred  54.84% 
+2017-5-9_16:6:52 <--> DL-Rawprogram( 59.85% ),  percent files transferred  59.85% 
+2017-5-9_16:6:52 <--> DL-Rawprogram( 69.20% ),  percent files transferred  69.20% 
+2017-5-9_16:6:54 <--> DL-Rawprogram( 72.17% ),  percent files transferred  72.17% 
+2017-5-9_16:6:55 <--> DL-Rawprogram( 72.18% ),  percent files transferred  72.18% 
+2017-5-9_16:7:0 <--> DL-Rawprogram( 77.81% ),  percent files transferred  77.81% 
+2017-5-9_16:7:0 <--> DL-Rawprogram( 83.44% ),  percent files transferred  83.44% 
+2017-5-9_16:7:0 <--> DL-Rawprogram( 83.84% ),  percent files transferred  83.84% 
+2017-5-9_16:7:2 <--> DL-Rawprogram( 84.56% ),  percent files transferred  84.56% 
+2017-5-9_16:7:2 <--> DL-Rawprogram( 85.51% ),  percent files transferred  85.51% 
+2017-5-9_16:7:3 <--> DL-Rawprogram( 87.62% ),  percent files transferred  87.62% 
+2017-5-9_16:7:3 <--> DL-Rawprogram( 88.00% ),  percent files transferred  88.00% 
+2017-5-9_16:7:4 <--> DL-Rawprogram( 88.01% ),  percent files transferred  88.01% 
+2017-5-9_16:7:6 <--> DL-Rawprogram( 88.02% ),  percent files transferred  88.02% 
+2017-5-9_16:7:12 <--> DL-Rawprogram( 93.65% ),  percent files transferred  93.65% 
+2017-5-9_16:7:12 <--> DL-Rawprogram( 99.99% ),  percent files transferred  99.99% 
+2017-5-9_16:7:12 <--> DL-Rawprogram( 100.00% ),  percent files transferred 100.00% 
+2017-5-9_16:7:12 <--> DL-Rawprogram, wait for 1 seconds ......
+2017-5-9_16:7:13 <--> DL-Rawprogram, wait for 0 seconds ......
+2017-5-9_16:7:13 <--> Download patch file ......
+2017-5-9_16:7:13 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --sendxml=patch0.xml --search_path="E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2017-5-9_16:7:17 <--> DL-Patch Binary build date: Sep 28 2015 @ 17:28:46
+2017-5-9_16:7:17 <--> DL-Patch Build version: 15.09.28.17.28.46
+2017-5-9_16:7:17 <--> DL-Patch 16:07:13: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2017-5-9_16:7:17 <--> DL-Patch ************************************************
+2017-5-9_16:7:17 <--> DL-Patch D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM60 --send
+2017-5-9_16:7:17 <--> DL-Patch xml=patch0.xml --search_path=E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC 
+2017-5-9_16:7:17 <--> DL-Patch ************************************************
+2017-5-9_16:7:17 <--> DL-Patch 16:07:13: INFO: Current 
+2017-5-9_16:7:17 <--> DL-Patch working dir (cwd): D:\QFlash_V4.1\Release\
+2017-5-9_16:7:17 <--> DL-Patch 16:07:13: INFO: Showing network mappings to allow debugging
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: 
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: Trying to store 'patch0.xml' in string table
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: Looking for file 'patch0.xml'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: Us
+2017-5-9_16:7:17 <--> DL-Patch er wants to talk to port '\\.\COM60'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: Took       0.00000000 seconds to open port
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: If  you don't want this, use --dontsorttags
+2017-5-9_16:7:17 <--> DL-Patch 1
+2017-5-9_16:7:17 <--> DL-Patch 6:07:15: INFO: Sending <configure>
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: TARGET SAID: 'logbuf@0x08057C78 fh@0x08054AE0'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: I
+2017-5-9_16:7:17 <--> DL-Patch NFO: TARGET SAID: 'Patched sector 9 with 00E8FFDE'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:15: INFO: TARGET SAID: 'Patched sector 15269862 with 00E8FFDE'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 1 with 00E8FFDE'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FF
+2017-5-9_16:7:17 <--> DL-Patch DE'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 1 with 00E8FFFF'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFFF'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFDF'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'crc start 
+2017-5-9_16:7:17 <--> DL-Patch sector 2, over bytes 4096'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 1 with F2CE64C5'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'crc start sector 15269855, over bytes 4096'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 15269887 with F2CE64C5'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: IN
+2017-5-9_16:7:17 <--> DL-Patch FO: TARGET SAID: 'Patched sector 1 with 00000000'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'crc start sector 1, over bytes 92'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 1 with 50E9D60F'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:16: INFO: TARGET SAID: 'Patched sector 15269887 with 00000000'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:17: INFO: TARGET SAID: 'crc start sector 15269887, over bytes 92'
+2017-5-9_16:7:17 <--> DL-Patch 16:07:17: INFO: TARGET SAID: 'Patched sector 15269887 with 974128DB'
+2017-5-9_16:7:18 <--> DL-Patch 16:07:17: INFO: ==============================================================
+2017-5-9_16:7:18 <--> DL-Patch 16:07:17: INFO: Files used an
+2017-5-9_16:8:31 <--> Download firehose file ......
+2017-5-9_16:8:31 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:"E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn"
+2017-5-9_16:10:1 <--> DL-Firehose Binary build date: May 13 2015 @ 14:41:37
+2017-5-9_16:10:1 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn '
+2017-5-9_16:10:2 <--> FAIL, DL_Firehose, Time out!
+2017-5-9_16:10:8 <--> Download firehose file ......
+2017-5-9_16:10:8 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:"E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn"
+2017-5-9_16:11:38 <--> DL-Firehose Binary build date: May 13 2015 @ 14:41:37
+2017-5-9_16:11:38 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM60 -s 13:E:\work\Qualcom\MSM8909\SC10ASAR01A01V03H8G_update\SC10ASAR01A01V03H8G_update\prog_emmc_firehose_8909_ddr.mbn '
+2017-5-9_16:11:38 <--> FAIL, DL_Firehose, Time out!
+2017-6-8_19:14:18 <--> Download firehose file ......
+2017-6-8_19:14:18 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM109 -s 13:"D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory\prog_emmc_firehose_8909_ddr.mbn"
+2017-6-8_19:14:22 <--> DL-Firehose Binary build date: May 13 2015 @ 14:41:37
+2017-6-8_19:14:22 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'D:\QFlash_V4.1\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM109 -s 13:D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory\prog_emmc_firehose_8909_ddr.mbn 'Current wo
+2017-6-8_19:14:22 <--> DL-Firehose rking dir: D:\QFlash_V4.1\Release
+2017-6-8_19:14:22 <--> DL-Firehose Sahara mappings:
+2017-6-8_19:14:22 <--> DL-Firehose 2: amss.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 6: apps.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 8: dsp1.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 10: dbl.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 11: osbl.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 12: dsp2.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 16: efs1.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 17: efs2.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 20: efs3.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 21: sbl1.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 22: sbl2.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 23: rpm.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 25: tz.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 28: dsp3.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 29: acdb.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 30: wdt.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 31: mba.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 13: D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory\prog_emmc_firehose_8909_ddr.mbn
+2017-6-8_19:14:22 <--> DL-Firehose 19:14:22: Requested ID 13, file: "D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory\prog_emmc_firehose_8909
+2017-6-8_19:14:22 <--> DL-Firehose _ddr.mbn"
+2017-6-8_19:14:22 <--> DL-Firehose 19:14:22: 271940 bytes transferred in 0.249000 seconds (1.0415MBps)
+2017-6-8_19:14:22 <--> DL-Firehose 19:14:22: File transferred successfully
+2017-6-8_19:14:22 <--> DL-Firehose NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This is by design, ** All is well ** SUCCESS!!
+2017-6-8_19:14:22 <--> DL-Firehose 19:14:22: Sahara protocol completed
+2017-6-8_19:14:22 <--> DL-Firehose, wait for 3 seconds ......
+2017-6-8_19:14:24 <--> DL-Firehose, wait for 2 seconds ......
+2017-6-8_19:14:25 <--> DL-Firehose, wait for 1 seconds ......
+2017-6-8_19:14:26 <--> Download rawprogram file ......
+2017-6-8_19:14:26 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM109 --sendxml=rawprogram_unsparse.xml --search_path="D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2017-6-8_19:14:28 <--> DL-Rawprogram( 0.02% ),  percent files transferred   0.02% 
+2017-6-8_19:14:28 <--> DL-Rawprogram( 0.06% ),  percent files transferred   0.06% 
+2017-6-8_19:14:28 <--> DL-Rawprogram( 0.09% ),  percent files transferred   0.09% 
+2017-6-8_19:14:29 <--> DL-Rawprogram( 0.17% ),  percent files transferred   0.17% 
+2017-6-8_19:14:29 <--> DL-Rawprogram( 0.24% ),  percent files transferred   0.24% 
+2017-6-8_19:14:29 <--> DL-Rawprogram( 0.27% ),  percent files transferred   0.27% 
+2017-6-8_19:14:29 <--> DL-Rawprogram( 0.29% ),  percent files transferred   0.29% 
+2017-6-8_19:14:30 <--> DL-Rawprogram( 0.37% ),  percent files transferred   0.37% 
+2017-6-8_19:14:30 <--> DL-Rawprogram( 0.45% ),  percent files transferred   0.45% 
+2017-6-8_19:14:30 <--> DL-Rawprogram( 0.69% ),  percent files transferred   0.69% 
+2017-6-8_19:14:30 <--> DL-Rawprogram( 0.93% ),  percent files transferred   0.93% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 6.52% ),  percent files transferred   6.52% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 8.47% ),  percent files transferred   8.47% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 10.55% ),  percent files transferred  10.55% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 16.45% ),  percent files transferred  16.45% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 22.20% ),  percent files transferred  22.20% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 27.94% ),  percent files transferred  27.94% 
+2017-6-8_19:14:41 <--> DL-Rawprogram( 30.98% ),  percent files transferred  30.98% 
+2017-6-8_19:14:49 <--> DL-Rawprogram( 36.88% ),  percent files transferred  36.88% 
+2017-6-8_19:14:49 <--> DL-Rawprogram( 42.63% ),  percent files transferred  42.63% 
+2017-6-8_19:14:49 <--> DL-Rawprogram( 48.38% ),  percent files transferred  48.38% 
+2017-6-8_19:14:49 <--> DL-Rawprogram( 51.07% ),  percent files transferred  51.07% 
+2017-6-8_19:14:54 <--> DL-Rawprogram( 56.97% ),  percent files transferred  56.97% 
+2017-6-8_19:14:54 <--> DL-Rawprogram( 62.72% ),  percent files transferred  62.72% 
+2017-6-8_19:14:54 <--> DL-Rawprogram( 62.76% ),  percent files transferred  62.76% 
+2017-6-8_19:15:2 <--> DL-Rawprogram( 68.66% ),  percent files transferred  68.66% 
+2017-6-8_19:15:2 <--> DL-Rawprogram( 74.41% ),  percent files transferred  74.41% 
+2017-6-8_19:15:2 <--> DL-Rawprogram( 82.85% ),  percent files transferred  82.85% 
+2017-6-8_19:15:3 <--> DL-Rawprogram( 83.58% ),  percent files transferred  83.58% 
+2017-6-8_19:15:3 <--> DL-Rawprogram( 84.55% ),  percent files transferred  84.55% 
+2017-6-8_19:15:9 <--> DL-Rawprogram( 86.71% ),  percent files transferred  86.71% 
+2017-6-8_19:15:9 <--> DL-Rawprogram( 92.46% ),  percent files transferred  92.46% 
+2017-6-8_19:15:9 <--> DL-Rawprogram( 98.53% ),  percent files transferred  98.53% 
+2017-6-8_19:15:9 <--> DL-Rawprogram( 99.94% ),  percent files transferred  99.94% 
+2017-6-8_19:15:10 <--> DL-Rawprogram( 99.95% ),  percent files transferred  99.95% 
+2017-6-8_19:15:12 <--> DL-Rawprogram( 99.96% ),  percent files transferred  99.96% 
+2017-6-8_19:15:13 <--> DL-Rawprogram( 99.97% ),  percent files transferred  99.97% 
+2017-6-8_19:15:15 <--> DL-Rawprogram( 99.98% ),  percent files transferred  99.98% 
+2017-6-8_19:15:17 <--> DL-Rawprogram( 99.99% ),  percent files transferred  99.99% 
+2017-6-8_19:15:18 <--> DL-Rawprogram( 100.00% ),  percent files transferred 100.00% 
+2017-6-8_19:15:18 <--> DL-Rawprogram, wait for 1 seconds ......
+2017-6-8_19:15:19 <--> DL-Rawprogram, wait for 0 seconds ......
+2017-6-8_19:15:20 <--> Download patch file ......
+2017-6-8_19:15:20 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM109 --sendxml=patch0.xml --search_path="D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2017-6-8_19:15:22 <--> DL-Patch Binary build date: Sep 28 2015 @ 17:28:46
+2017-6-8_19:15:22 <--> DL-Patch Build version: 15.09.28.17.28.46
+2017-6-8_19:15:22 <--> DL-Patch 19:15:20: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2017-6-8_19:15:22 <--> DL-Patch ************************************************
+2017-6-8_19:15:22 <--> DL-Patch D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM109 --sen
+2017-6-8_19:15:22 <--> DL-Patch dxml=patch0.xml --search_path=D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC 
+2017-6-8_19:15:22 <--> DL-Patch ************************************************
+2017-6-8_19:15:22 <--> DL-Patch 19:15:20: INFO: Current working di
+2017-6-8_19:15:22 <--> DL-Patch r (cwd): D:\QFlash_V4.1\Release\
+2017-6-8_19:15:22 <--> DL-Patch 19:15:20: INFO: Showing network mappings to allow debugging
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: 
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: Trying to store 'patch0.xml' in string table
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: Looking for file 'patch0.xml'
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: User wants t
+2017-6-8_19:15:22 <--> DL-Patch o talk to port '\\.\COM109'
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: Took       0.00000000 seconds to open port
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: If  you don't want this, use --dontsorttags
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: 
+2017-6-8_19:15:22 <--> DL-Patch INFO: Sending <configure>
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: TARGET SAID: 'logbuf@0x08057C78 fh@0x08054AE0'
+2017-6-8_19:15:22 <--> DL-Patch 19:15:21: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: TARG
+2017-6-8_19:15:23 <--> DL-Patch ET SAID: 'Patched sector 9 with 00E8FFDE'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: TARGET SAID: 'Patched sector 15269862 with 00E8FFDE'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: TARGET SAID: 'Patched sector 1 with 00E8FFDE'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFDE'
+2017-6-8_19:15:23 <--> DL-Patch 19
+2017-6-8_19:15:23 <--> DL-Patch :15:21: INFO: TARGET SAID: 'Patched sector 1 with 00E8FFFF'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFFF'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:21: INFO: TARGET SAID: 'Patched sector 15269887 with 00E8FFDF'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'crc start sector 2,
+2017-6-8_19:15:23 <--> DL-Patch  over bytes 4096'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'Patched sector 1 with 6D30DE53'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'crc start sector 15269855, over bytes 4096'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'Patched sector 15269887 with 6D30DE53'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGE
+2017-6-8_19:15:23 <--> DL-Patch T SAID: 'Patched sector 1 with 00000000'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'crc start sector 1, over bytes 92'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'Patched sector 1 with EA845157'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'Patched sector 15269887 with 00000000'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:2
+2017-6-8_19:15:23 <--> DL-Patch 2: INFO: TARGET SAID: 'crc start sector 15269887, over bytes 92'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: TARGET SAID: 'Patched sector 15269887 with 2D2CAF83'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: ==============================================================
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: Files used and their p
+2017-6-8_19:15:23 <--> DL-Patch aths
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO:   1 'D:\QFlash_V4.1\Release\port_trace.txt'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO:   2 'D:\SC20CEPAR01A04V01H8G_ST_factory\SC20CEPAR01A04V01H8G_ST_factory\patch0.xml'
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO:      _             (done)
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO:     | |                 
+2017-6-8_19:15:23 <--> DL-Patch 1
+2017-6-8_19:15:23 <--> DL-Patch 9:15:22: INFO:   __| | ___  _ __   ___ 
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO:  / _` |/ _ \| '_ \ / _ \
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: | (_| | (_) | | | |  __/
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO:  \__,_|\___/|_| |_|\___|
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: {All Finished Successfully}
+2017-6-8_19:15:23 <--> DL-Patch 19:15:22: INFO: FILE ACCESS SLOW!!     0.0
+2017-6-8_19:15:23 <--> DL-Patch, wait for 1 seconds ......
+2017-6-8_19:15:24 <--> DL-Patch, wait for 0 seconds ......
+2017-6-8_19:15:24 <--> Download reset ......
+2017-6-8_19:15:24 <--> cmd.exe /c D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM109 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC --setactivepartition=0
+2017-6-8_19:15:25 <--> DL-Reset Binary build date: Sep 28 2015 @ 17:28:46
+2017-6-8_19:15:25 <--> DL-Reset Build version: 15.09.28.17.28.46
+2017-6-8_19:15:25 <--> DL-Reset 19:15:24: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2017-6-8_19:15:25 <--> DL-Reset ************************************************
+2017-6-8_19:15:25 <--> DL-Reset D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM109 --nop
+2017-6-8_19:15:25 <--> DL-Reset rompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC --setactivepartition=0 
+2017-6-8_19:15:25 <--> DL-Reset ************************************************
+2017-6-8_19:15:25 <--> DL-Reset 19:15:24: INFO: Current working dir (cwd): D:\QFlash_V4.1\Release\
+2017-6-8_19:15:25 <--> DL-Reset 19:15:24: INFO: Showing network mappings to a
+2017-6-8_19:15:25 <--> DL-Reset llow debugging
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: User wants to talk to port '\\.\COM109'
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: Took       0.00000000 seconds to open port
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: If  you don't
+2017-6-8_19:15:25 <--> DL-Reset  want this, use --dontsorttags
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: Sending <configure>
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: TARGET SAID: 'logbuf@0x08057C78 fh@0x08054AE0'
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: fh.attrs.MaxPayloadSizeToTargetInByte
+2017-6-8_19:15:25 <--> DL-Reset sSupported = 1048576
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: Sending <setbootablestoragedrive>
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: TARGET SAID: 'Set bootable drive to 0.'
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: ==============================================================
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO: Files used and their paths
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO:   1 'D:\QFlash_V4.1\Release\port_trace.txt'
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO:      _             (done)
+2017-6-8_19:15:25 <--> DL-Reset 19:15:25: INFO:     | |                 
+2017-6-8_19:15:26 <--> DL-Reset 19:15:25: INFO:   __| | ___  _ __   ___ 
+2017-6-8_19:15:26 <--> DL-Reset 19:15:25: INFO:  / _` |/ _ \| '_ \ / _ \
+2017-6-8_19:15:26 <--> DL-Reset 19:15:25: INFO: | (_| | 
+2017-6-8_19:15:26 <--> DL-Reset (_) | | | |  __/
+2017-6-8_19:15:26 <--> DL-Reset 19:15:25: INFO:  \__,_|\___/|_| |_|\___|
+2017-6-8_19:15:26 <--> DL-Reset 19:15:25: INFO: {All Finished Successfully}
+2017-6-8_19:15:26 <--> DL-Reset 19:15:25: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.203 seconds (0.00 Bps)
+2017-6-8_19:15:26 <--> DL-Reset Writing log to 'D:\

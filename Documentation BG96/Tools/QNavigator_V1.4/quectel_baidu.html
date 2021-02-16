@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+</title>
+<style type="text/css">
+html{height:100%}    
+body{height:100%;margin:0px;padding:0px}    
+#container{height:100%}
+>
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=4738a9aed8bd239f801e539751887972">
+</script></head><body>
+<div id="container">
+</div>
+<!--<input type="button" style="background:#00ff00" value="Button" onclick = "clickButton()">-->
+<script type="text/javascript">
+var map = new BMap.Map("container");
+var point = new BMap.Point(121.397, 31.163);
+map.centerAndZoom(point, 15);
+var point1, marker1;
+marker1 = new BMap.Marker(point);
+map.addOverlay(marker1);
+map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}));
+map.enableScrollWheelZoom(true);
+map.enableDoubleClickZoom(true);
+function ggetposition(lat, lng) 
+{	
+	map.removeOverlay(marker1); 	
+	point1 = new BMap.Point(lat, lng);	
+	marker1 = new BMap.Marker(point1);	
+	map.centerAndZoom(point1, 15);	
+	map.addOverlay(marker1);
+}
+function addMark(x, y)
+{
+	map.addOverlay(new BMap.Marker(new BMap.Point(x, y)));
+}
+<!--
+function clickButton()
+{
+	addMark(121.396, 31.162);
+}
+-->
+</script>
+</body>
+</html>

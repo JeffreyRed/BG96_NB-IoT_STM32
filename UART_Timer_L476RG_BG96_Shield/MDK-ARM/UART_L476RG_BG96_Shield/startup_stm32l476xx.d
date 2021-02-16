@@ -1,0 +1,1 @@
+uart_l476rg_bg96_shield\startup_stm32l476xx.o: startup_stm32l476xx.s

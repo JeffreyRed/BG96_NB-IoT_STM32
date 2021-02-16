@@ -1,0 +1,36 @@
+IrqType type=RxIrq
+
+https://www.hackster.io/naresh-krish/getting-started-with-hologram-sim-and-rak-itracker-module-2537b9
+
+
+carriots
+
+defaultDevice@jeredo.jeredo
+
+API key
+e24633e0c9130712806e520d8adafe2bcbca62928b9edb42af09f65a007270c5
+
+POST /streams/ HTTP/1.1
+Host: api.carriots.com
+Accept: application/json
+User-Agent: defaultDevice@jeredo.jeredo
+Content-Type: application/json
+Content-Length: 283
+carriots.apikey: e24633e0c9130712806e520d8adafe2bcbca62928b9edb42af09f65a007270c5
+
+http://api.carriots.com/streams/?device=defaultDevice@carriots
+
+ubidots
+BG96
+AT+QICSGP=1,1,"
+AT+QIACT=1
+AT+QIACT?
+AT+QHTTPURL=88,80  //size and timeout
+CONNECT // then send the url
+http://things.ubidots.com/api/v1.6/devices/bg96?token=A1E-g30TOMSwB7M7s827HqtAgsUWNwmhhp
+AT+QHTTPPOST=7,80,80  // size, timeout , timeout
+CONNECT
+TEMP=35
+AT+QHTTPREAD=80
+
+https://ubidots.com/docs/api/index.html#send-values 

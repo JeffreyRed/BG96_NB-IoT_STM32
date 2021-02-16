@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jeff jeff_, ttu, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\GIT\NB-IoT\Low_Power_mode and RTC_Cumulocity_BG96_L476RG\MDK-ARM\Low_Power_mode.uvprojx
+Project File Date:  07/11/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Low_Power_mode'
+compiling BG96.c...
+BG96.c(27): warning:  #1295-D: Deprecated declaration BG96_Context_Check - give arg types
+  int BG96_Context_Check();
+BG96.c(30): warning:  #1295-D: Deprecated declaration BG96_Check_Internet - give arg types
+  int BG96_Check_Internet();
+BG96.c(55): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		char *c = strstr(EVB_Buffer,"Telia"); //here is Carrier/operator name
+BG96.c(297): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		char *c = strstr(EVB_Buffer,"BG96");
+BG96.c(401): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		char *c = strstr(EVB_Buffer,"OK");
+BG96.c(392): warning:  #177-D: variable "ap"  was declared but never referenced
+  	char sw=0,ap=0;
+BG96.c(434): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			char *c = strstr(EVB_Buffer,"+QIACT:");
+BG96.c(428): warning:  #177-D: variable "sw"  was declared but never referenced
+  	char sw=0,ap=0;
+BG96.c(428): warning:  #177-D: variable "ap"  was declared but never referenced
+  	char sw=0,ap=0;
+BG96.c(463): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart1,rsrpchar,strlen(rsrpchar),1000); // or sizeof
+BG96.c(467): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,rsrpchar,sizeof(rsrpchar),1000);
+BG96.c(491): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart1,rsrqchar,sizeof(rsrqchar),1000);
+BG96.c(495): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,rsrqchar,sizeof(rsrqchar),1000);
+BG96.c(546): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart1,techchar,sizeof(techchar),1000);
+BG96.c(550): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,techchar,sizeof(techchar),1000);
+BG96.c(586): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,data,strlen(data),1000);
+BG96.c(610): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	char *c = strstr(EVB_Buffer,"+QIOPEN: 0,0");
+BG96.c(638): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart1,data,strlen(data),1000);
+BG96.c(655): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	char *c = strstr(EVB_Buffer,"+QPING: 0,"); // ping received
+BG96.c(685): warning:  #1-D: last line of file ends without a newline
+  }	
+BG96.c: 32 warnings, 0 errors
+linking...
+Program Size: Code=14980 RO-data=880 RW-data=52 ZI-data=1780  
+"Low_Power_mode\Low_Power_mode.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.0.0.pack
+                Keil.STM32L4xx_DFP.2.0.0
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Low_Power_mode
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:28
+</pre>
+</body>
+</html>

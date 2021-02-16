@@ -1,0 +1,141 @@
+
+19:15:24: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\QFlash_V4.1\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM109 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC --setactivepartition=0 
+************************************************
+
+19:15:24: DEBUG: Binary build date: Sep 28 2015 @ 17:28:46
+
+19:15:24: DEBUG: Build Version: 15.09.28.17.28.46
+
+19:15:24: INFO: Current working dir (cwd): D:\QFlash_V4.1\Release\
+19:15:24: INFO: Showing network mappings to allow debugging
+19:15:25: DEBUG: 会记录新的网络连接。
+
+19:15:25: DEBUG: 
+
+19:15:25: DEBUG: 列表是空的。
+
+19:15:25: DEBUG: 
+
+19:15:25: DEBUG: User set ZLPAWAREHOST to 1
+
+19:15:25: INFO: User wants to talk to port '\\.\COM109'
+19:15:25: DEBUG: port_fd=0x4C
+
+19:15:25: INFO: Took       0.00000000 seconds to open port
+19:15:25: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+19:15:25: INFO: If  you don't want this, use --dontsorttags
+
+19:15:25: INFO: Sending <configure>
+19:15:25: DEBUG: CHANNEL DATA (P0000) (H00202) (    246 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="emmc" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="0" TargetName="8960" />
+</data>
+
+============================================================================================================
+
+19:15:25: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+19:15:25: DEBUG: CHANNEL DATA (400 bytes) <-- TARGET to HOST
+19:15:25: DEBUG: CharsInBuffer = 400
+19:15:25: DEBUG: printBuffer:5612 PRETTYPRINT Buffer is 400 bytes
+
+19:15:25: DEBUG: printBuffer:5689 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+19:15:25: DEBUG: printBuffer:5689 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+19:15:25: DEBUG: printBuffer:5689 46 2D 38 22 20 3F 3E 3C 64 61 74 61 3E 3C 6C 6F F-8" ?><data><lo
+19:15:25: DEBUG: printBuffer:5689 67 20 76 61 6C 75 65 3D 22 6C 6F 67 62 75 66 40 g value="logbuf@
+19:15:25: DEBUG: printBuffer:5689 30 78 30 38 30 35 37 43 37 38 20 66 68 40 30 78 0x08057C78 fh@0x
+19:15:25: DEBUG: printBuffer:5689 30 38 30 35 34 41 45 30 22 20 2F 3E 3C 2F 64 61 08054AE0" /></da
+19:15:25: DEBUG: printBuffer:5689 74 61 3E 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E ta><?xml version
+19:15:25: DEBUG: printBuffer:5689 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D ="1.0" encoding=
+19:15:25: DEBUG: printBuffer:5689 22 55 54 46 2D 38 22 20 3F 3E 3C 64 61 74 61 3E "UTF-8" ?><data>
+19:15:25: DEBUG: printBuffer:5689 3C 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D <response value=
+19:15:25: DEBUG: printBuffer:5689 22 41 43 4B 22 20 4D 69 6E 56 65 72 73 69 6F 6E "ACK" MinVersion
+19:15:25: DEBUG: printBuffer:5689 53 75 70 70 6F 72 74 65 64 3D 22 31 22 20 4D 65 Supported="1" Me
+19:15:25: DEBUG: printBuffer:5689 6D 6F 72 79 4E 61 6D 65 3D 22 65 4D 4D 43 22 20 moryName="eMMC" 
+19:15:25: DEBUG: printBuffer:5689 4D 61 78 50 61 79 6C 6F 61 64 53 69 7A 65 46 72 MaxPayloadSizeFr
+19:15:25: DEBUG: printBuffer:5689 6F 6D 54 61 72 67 65 74 49 6E 42 79 74 65 73 3D omTargetInBytes=
+19:15:25: DEBUG: printBuffer:5689 22 34 30 39 36 22 20 4D 61 78 50 61 79 6C 6F 61 "4096" MaxPayloa
+19:15:25: DEBUG: printBuffer:5689 64 53 69 7A 65 54 6F 54 61 72 67 65 74 49 6E 42 dSizeToTargetInB
+19:15:25: DEBUG: printBuffer:5689 79 74 65 73 3D 22 31 30 34 38 35 37 36 22 20 4D ytes="1048576" M
+19:15:25: DEBUG: printBuffer:5689 61 78 50 61 79 6C 6F 61 64 53 69 7A 65 54 6F 54 axPayloadSizeToT
+19:15:25: DEBUG: printBuffer:5689 61 72 67 65 74 49 6E 42 79 74 65 73 53 75 70 70 argetInBytesSupp
+19:15:25: DEBUG: printBuffer:5689 6F 72 74 65 64 3D 22 31 30 34 38 35 37 36 22 20 orted="1048576" 
+19:15:25: DEBUG: printBuffer:5689 4D 61 78 58 4D 4C 53 69 7A 65 49 6E 42 79 74 65 MaxXMLSizeInByte
+19:15:25: DEBUG: printBuffer:5689 73 3D 22 34 30 39 36 22 20 56 65 72 73 69 6F 6E s="4096" Version
+19:15:25: DEBUG: printBuffer:5689 3D 22 31 22 20 54 61 72 67 65 74 4E 61 6D 65 3D ="1" TargetName=
+19:15:25: DEBUG: printBuffer:5689 22 38 39 30 39 22 20 2F 3E 3C 2F 64 61 74 61 3E "8909" /></data>
+19:15:25: DEBUG: printBuffer:5702 
+
+
+19:15:25: DEBUG: XML FILE (99 bytes): CharsInBuffer=400-99=301
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="logbuf@0x08057C78 fh@0x08054AE0" /></data>
+-------------------------------------------------------------------------------------------
+
+19:15:25: INFO: TARGET SAID: 'logbuf@0x08057C78 fh@0x08054AE0'
+19:15:25: DEBUG: XML FILE (301 bytes): CharsInBuffer=301-301=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" MinVersionSupported="1" MemoryName="eMMC" MaxPayloadSizeFromTargetInBytes="4096" MaxPayloadSizeToTargetInBytes="1048576" MaxPayloadSizeToTargetInBytesSupported="1048576" MaxXMLSizeInBytes="4096" Version="1" TargetName="8909" /></data>
+-------------------------------------------------------------------------------------------
+
+19:15:25: DEBUG: Response was 'ACK'
+19:15:25: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+19:15:25: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+19:15:25: DEBUG: Got the ACK for the <configure>
+19:15:25: INFO: Sending <setbootablestoragedrive>
+19:15:25: DEBUG: CHANNEL DATA (P0001) (H00203) (     93 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<setbootablestoragedrive value="0" />
+</data>
+
+============================================================================================================
+
+19:15:25: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+19:15:25: DEBUG: CHANNEL DATA (168 bytes) <-- TARGET to HOST
+19:15:25: DEBUG: CharsInBuffer = 168
+19:15:25: DEBUG: printBuffer:5612 PRETTYPRINT Buffer is 168 bytes
+
+19:15:25: DEBUG: printBuffer:5689 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+19:15:25: DEBUG: printBuffer:5689 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+19:15:25: DEBUG: printBuffer:5689 46 2D 38 22 20 3F 3E 3C 64 61 74 61 3E 3C 6C 6F F-8" ?><data><lo
+19:15:25: DEBUG: printBuffer:5689 67 20 76 61 6C 75 65 3D 22 53 65 74 20 62 6F 6F g value="Set boo
+19:15:25: DEBUG: printBuffer:5689 74 61 62 6C 65 20 64 72 69 76 65 20 74 6F 20 30 table drive to 0
+19:15:25: DEBUG: printBuffer:5689 2E 22 20 2F 3E 3C 2F 64 61 74 61 3E 3C 3F 78 6D ." /></data><?xm
+19:15:25: DEBUG: printBuffer:5689 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 l version="1.0" 
+19:15:25: DEBUG: printBuffer:5689 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 encoding="UTF-8"
+19:15:25: DEBUG: printBuffer:5689 20 3F 3E 3C 64 61 74 61 3E 3C 72 65 73 70 6F 6E  ?><data><respon
+19:15:25: DEBUG: printBuffer:5689 73 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 2F se value="ACK" /
+19:15:25: DEBUG: printBuffer:5689 3E 3C 2F 64 61 74 61 3E                         ></data>
+19:15:25: DEBUG: printBuffer:5702 
+
+
+19:15:25: DEBUG: XML FILE (92 bytes): CharsInBuffer=168-92=76
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="Set bootable drive to 0." /></data>
+-------------------------------------------------------------------------------------------
+
+19:15:25: INFO: TARGET SAID: 'Set bootable drive to 0.'
+19:15:25: DEBUG: XML FILE (76 bytes): CharsInBuffer=76-76=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" /></data>
+-------------------------------------------------------------------------------------------
+
+19:15:25: DEBUG: Response was 'ACK'
+19:15:25: DEBUG: Got the ACK
+19:15:25: INFO: ==============================================================
+19:15:25: INFO: Files used and their paths
+19:15:25: INFO:   1 'D:\QFlash_V4.1\Release\port_trace.txt'
+19:15:25: INFO:      _             (done)
+19:15:25: INFO:     | |                 
+19:15:25: INFO:   __| | ___  _ __   ___ 
+19:15:25: INFO:  / _` |/ _ \| '_ \ / _ \
+19:15:25: INFO: | (_| | (_) | | | |  __/
+19:15:25: INFO:  \__,_|\___/|_| |_|\___|
+19:15:25: INFO: {All Finished Successfully}
+
+19:15:25: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.203 seconds (0.00 Bps)
